@@ -11,127 +11,41 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: 혹시 고양이를 좋아한다면
+    text: 우리는 지금부터 친구
+    button: 뭐라고요?
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "고양이"
+    text: "사랑은 고양이처럼, 고양이야말로 사랑이 아닐까"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "은은하게 스며들다"
+        desc: "거부할 수 없는 매력의 소유자."
+        icon: fas fa-cat #find more at https://fontawesome.com/icons
+      - title: "담백하게 다가가다"
+        desc: "서두르는 법이 없다. 항상 그 자리에 있는 듯 없는 듯"
+        icon: fas fa-cat
+      - title: "꾹꾹이"
+        desc: "꾹꾹이를 본 순간 헤어 나올 수 없다"
+        icon: fas fa-cat
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "코코의 탄생"
+    text: "나의 귀여운 아기 고양이 코코"
     section: portfolio
-    closebutton: "Close Project"
-
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+    closebutton: "닫기"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "코코에 대하여"
+    text: "나의 반려묘 코코"
+    body: "고양이가 제 곁에 있다는 것은 정말 큰 행복입니다"
     section: about
-
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: ""
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -147,13 +61,9 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
       - url: https://facebook.com
         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/youjincoco/coco
         icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"
@@ -196,97 +106,11 @@ es: &DEFAULT_ES
     section: portafolio
     closebutton: "Cerrar Proyecto"
 
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
-
   about:
     title: "Sobre nosotros"
     text: "nuestra historia"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: nosotros
-
-  clients:
-    section: clientes
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
 
   contact:
     title: "Contáctenos"
@@ -306,13 +130,9 @@ es: &DEFAULT_ES
   footer:
     legal: "Política de Privacidad"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
       - url: https://facebook.com
         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/youjincoco/coco
         icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"
@@ -351,97 +171,11 @@ de: &DEFAULT_DE
     section: Portfolio
     closebutton: "Schließen"
 
-  timeline:
-    title: "Geschichte"
-    text: "Lorem ipsum timeline"
-    section: Geschichte
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Unsere Anfänge"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Gründung der Firma"
-        year: "März 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Das Jekyll-Thema wurde erstellt"
-        year: "2019"
-        desc: "Ravi Riley wandelte Agency, ein auf Bootstrap basierendes Thema, in ein Jekyll-Thema um. Man kann das Jekyll-Thema als Ruby-Gem oder remotely installieren. Für mehr Informationen, schauen Sie sich die Dokumentation an."
-        image: assets/img/timeline/3.jpg
-        alt: Bildbeschreibung
-      - title: "Titel"
-        year: "2009-2011"
-        desc: "Hier können Sie etwas mit **Markdown** einfügen."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Seien Sie <br> Teil unserer <br> Geschichte!"
-
   about:
     title: "Über uns"
     text: "Unsere Geschichte."
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: Ueber
-
-  clients:
-    section: Kunden
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "Unser großartiges Team"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: Team
-    people:
-      - name: "Kay Garland"
-        role: "Chef-Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Chef der Werbeabteilung"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Chef-Programmiererin"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
 
   contact:
     title: "Kontakt"
@@ -461,13 +195,9 @@ de: &DEFAULT_DE
   footer:
     legal: "Datenschutzerklärung"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
       - url: https://facebook.com
         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/youjincoco/coco
         icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"

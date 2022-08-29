@@ -13,27 +13,26 @@
 
 theme: jekyll-agency
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://youjincoco.github.io"
+baseurl: "/coco"
 
-title      : Your Awesome Website
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Site description"
-author     : Your Name
+title: Introducing coco
+email: dbwkswpsdev@gmail.com
+description: "고양이를 사랑하는 사람 중에 나쁜 사람은 없어요"
+author: youjincoco
 # logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+# path: assets\img\clients\creative-market.jpg
+# height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: G-DVEYS0QY3M #Google Analytics tracking code here
 
 collections:
   portfolio:
 
 markdown: kramdown
-
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-# formspree_form_path: "f/a_form_id"
+formspree_form_path: "f/mrgdbrqn"
